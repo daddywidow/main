@@ -34,32 +34,28 @@
     </div>
   </nav>
 
-  <form>
-      <h2 class="section-heading-dark">Custom Clip Purchase</h2>
+  <form action="mailto:blackwidow42082@aol.com" method="post" enctype="text/plain">
+      <h2 class="section-heading-dark">Cam Purchase</h2>
     <div class="form-group">
+      <input type="hidden" name="Purchase" value="Cam Session">
       <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      <input type="email" name="email" value="" type="email" class="form-control" id="email" placeholder="name@example.com">
     </div>
     <div class="form-group">
       <label for="type">Preferred Payment Method</label>
-      <select class="form-control" id="Type">
-        <option>Cashapp</option>
-        <option>Google Pay</option>
-        <option>Amazon</option>
-        <option>Gift Rocket</option>
-      </select>
+      <input type="text" name="Payment Type" value="" textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Cashapp, Google Pay, Amazon, or Gift Rocket"></textarea>
     </div>
     <div class="form-group">
       <div class="form-group">
-        <label for="time">Estimated Clip Length</label>
-        <input type="text" class="form-control" id="length" placeholder="length of clip">
+        <label for="time">Estimated Session Length</label>
+        <input type="text" name="length" value="" class="form-control" id="email">
       </div>
     </div>
     <div class="form-group">
       <label for="requests">Requests (Be detailed.)</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea name="About" rows="10" value="" textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
     </div>
-        <a class="btn send" href="mailto:blackwidow42082@aol.com">Schedule</a>
+        <input type="submit" name="" value="Schedule">
   </form>
 
   <footer id="footer">
