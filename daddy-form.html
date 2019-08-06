@@ -34,27 +34,23 @@
     </div>
   </nav>
 
-  <form>
+  <form action="mailto:blackwidow42082@aol.com" method="post" enctype="text/plain">
       <h2 class="section-heading-dark">Daddy Package</h2>
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="type">Preferred Payment Method</label>
-      <select class="form-control" id="Type">
-        <option>Cashapp</option>
-        <option>Google Pay</option>
-        <option>Amazon</option>
-        <option>Gift Rocket</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="requests">About you</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell me a little about you; your kinks and fetishes. Why do you wish to serve me?"></textarea>
-    </div>
-        <a class="btn send" href="mailto:blackwidow42082@aol.com">Schedule</a>
-  </form>
+      <div class="form-group">
+        <input type="hidden" name="Purchase" value="Daddy Package">
+        <label for="email">Email address</label>
+        <input type="email" name="email" value="" type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="type">Preferred Payment Method</label>
+        <input type="text" name="Payment Type" value="" textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Cashapp, Google Pay, Amazon, or Gift Rocket"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="requests">About you</label>
+        <textarea name="About" rows="10" value="" textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tell me a little about you; your kinks and fetishes. Why do you wish to serve me?"></textarea>
+      </div>
+      <input type="submit" name="" value="Schedule">
+    </form>
 
   <footer id="footer">
     <a href="https://twitter.com/widow_goddess"><i class="fab fa-twitter foot-icon"></i></a>
