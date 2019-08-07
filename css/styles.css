@@ -144,6 +144,18 @@ padding: 0 18px;
     }
 }
 
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .about-text{
+    font-size: 3rem;
+    margin: 10px;
+  }
+
+  #about{
+    padding: 10px;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .about-text{
@@ -153,7 +165,15 @@ padding: 0 18px;
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .about-text{
+      font-size: 3rem;
+      margin: 10px;
+    }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
+      .about-text{
+      font-size: 3rem;
+      margin: 10px;
+    }
 }
