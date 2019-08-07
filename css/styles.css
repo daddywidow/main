@@ -121,6 +121,8 @@ padding: 0 18px;
   .title-image{
     width: 100%;
     }
+  
+  p{font-size: 1.7rem;}
 
 }
 @media (min-width: 10px) {
@@ -144,4 +146,5 @@ padding: 0 18px;
     position: static;
     }
 
+  p{font-size: 1.7rem;}
 }
